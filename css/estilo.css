@@ -62,15 +62,41 @@ h1 small {
 .div-colorida {
     background: url(../img/fundo.jpg);
     background-position: center;
+    background-clip: content-box;
+
     border-top-style: groove;
     border-top-color: aqua;
     color: black;
+
+
+}
+
+.div-colorida2 {
+    background: url(../img/fundo-slider.jpg);
+    background-position: center;
+    background-clip: content-box;
+    border-top-style: groove;
+    border-top-color: aqua;
+    color: white;
 
     /* border-top-width: 42px;
     border-color: rgba(39, 35, 31, 0.21);
     border-style: solid;
 
 */
+}
+
+.div-colorida {
+    background: url(../img/fundo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    border-top-style: groove;
+    border-top-color: aqua;
+    color: black;
+
+    /* border-top-width: 42px;
+    border-color: rgba(39, 35, 31, 0.21);
+    border-style: solid;*/
 }
 
 section {
@@ -91,12 +117,11 @@ section {
     border-radius: 15px;
 }
 
-.slider {
-    background-color: rgba(137, 153, 188, 0.54);
+.slider {   
     border-bottom-style: double;
-    border-bottom-color: rgba(61, 81, 165, 0.97);
     border-bottom-width: medium;
     background: url(../img/fundo-slider.jpg);
+    background-attachment: fixed;
 
 
     /*    background-color: rgba(74, 84, 119, 0.85); */
@@ -114,7 +139,7 @@ section {
     background-color: blue;
 }
 
-.btn{
+.btn {
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -136,22 +161,25 @@ footer .row {
 
 footer ul {
     border-radius: 12px;
-    border-style:hidden;
+    border-style: hidden;
     border-color: aqua;
 
 }
-footer ul li{
-     list-style-type: none;
+
+footer ul li {
+    list-style-type: none;
     margin-top: -7px;
     font-size: 18px;
 }
-footer .fonte{
-     
+
+footer .fonte {
+
     margin-top: 25px;
     font-size: 12px;
 }
+
 footer ul li small:nth-child(5) {
-   font-size: 28px;
+    font-size: 28px;
     font-family: 'Yellowtail', cursive;
 
 }
@@ -195,7 +223,7 @@ footer ul li a {
 }
 
 .navbar1 ul li a:hover {
-   /* background: rgba(73, 92, 93, 0.99);*/
+    /* background: rgba(73, 92, 93, 0.99);*/
     background: rgba(10, 64, 111, 0.92);
 
 }
