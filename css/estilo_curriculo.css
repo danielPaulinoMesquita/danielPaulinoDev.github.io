@@ -5,7 +5,7 @@ section {
     /*Distância da parte superior */
     padding-bottom: 20px;
     /*Distância da parte inferior */
-    min-height: 60vh;
+    min-height: 100%;
     /*Altura mínima */
 
 }

@@ -56,7 +56,17 @@ h1 small {
     border-radius: 20px;
 
 }
+.div-colorida-dark {
+    background:rgba(1, 45, 144, 0.71);
+    background-position: center;
+    background-clip: content-box;
 
+    border-top-style: groove;
+    border-top-color: aqua;
+    color: black;
+
+
+}
 
 
 .div-colorida {
@@ -79,11 +89,7 @@ h1 small {
     border-top-color: aqua;
     color: white;
 
-    /* border-top-width: 42px;
-    border-color: rgba(39, 35, 31, 0.21);
-    border-style: solid;
-
-*/
+  
 }
 
 .div-colorida {
@@ -91,12 +97,9 @@ h1 small {
     background-position: center;
     background-attachment: fixed;
     border-top-style: groove;
-    border-top-color: aqua;
+    border-top-color:dodgerblue;
     color: black;
 
-    /* border-top-width: 42px;
-    border-color: rgba(39, 35, 31, 0.21);
-    border-style: solid;*/
 }
 
 section {
@@ -117,14 +120,10 @@ section {
     border-radius: 15px;
 }
 
-.slider {   
-    border-bottom-style: double;
-    border-bottom-width: medium;
+.slider {
     background: url(../img/fundo-slider.jpg);
     background-attachment: fixed;
-
-
-    /*    background-color: rgba(74, 84, 119, 0.85); */
+    border-radius:18px;
     padding-bottom: 15px;
     padding-top: 56px;
 
@@ -146,8 +145,10 @@ section {
 
 /*  FOOTER*/
 footer {
-
-    padding-top: 10px;
+    border-top-width:thin!important;
+    border-top-style:solid!important;
+    border-top-color:aqua;
+    padding-top: 9px;
     /*Distância da parte inferior */
     padding-bottom: 20px;
     font-size: white;
