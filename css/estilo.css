@@ -20,7 +20,7 @@ i {
 }
 .navbar1 i{
     font-size: 20px;
-    color: #e5fafa;
+    color: #dbe2e2;
 }
 
 
@@ -34,11 +34,13 @@ h1 small {
     font-size: 23px;
     font-style: italic;
 }
+
 .dan .jumbotron{
-    margin-top: 150px;
-    margin-bottom: 10px;
+   
+    margin-top: 25%;
+    margin-bottom: 3%;
     border-radius: 18px;
-    background-color: rgba(1, 5, 27, 0.856);
+    background-color: rgba(1, 5, 27, 0.76);
     justify-content: left;
     padding-top: 40px;
     padding-bottom: 14px;    
@@ -56,8 +58,8 @@ h1 small {
 } 
 
 .div-colorida h1 {
-    color: rgba(14, 39, 107, 0.918);
-    font-weight: bold;
+    color: rgba(22, 51, 129, 0.918);
+    font-weight: bolder;
 }
 
 .div-colorida2 h1 {
@@ -83,24 +85,12 @@ h1 small {
 
 }
 
-
-.div-colorida {
-    background: url(../img/fundo.jpg);
-    background-position: center;
-    background-clip: content-box;
-
-    border-top-style: groove;
-    border-top-color: aqua;
-    color: black;
-
-
-}
-
 .div-colorida2 {
     background: url(../img/6.jpg);
     background-position:100%;
-    background-clip: content-box;
+    background-clip:content-box;
     border-bottom-style: solid;
+    background-size:100%;
     border-bottom-color: rgb(59, 7, 70);
     color: rgb(231, 227, 236);
 
@@ -108,7 +98,8 @@ h1 small {
 }
 
 .div-colorida {
-    background: white;
+    font-weight: bold;
+    background: rgba(198, 220, 221, 0.925);
     background-position: center;
     background-attachment: fixed;
     border-top-style: groove;
@@ -116,6 +107,7 @@ h1 small {
     color: black;
 
 }
+
 
 section {
 
@@ -212,7 +204,7 @@ footer ul li a {
 /* --- NAVBAR--- -- */
 /*Alterando o navbar */
 .navbar1 {
-
+    background-color: rgba(1, 5, 27, 0.856);
     font-style: normal;
     overflow: inherit;
     padding-bottom: black;
@@ -229,8 +221,9 @@ footer ul li a {
     list-style-type: none;
     display: inline-block;
     padding: 10px 52px;
-    color: white;
-    font-size: 21px;
+    color: rgb(207, 217, 223);
+    font-size: 23px;
+    font-stretch:normal;
     cursor: pointer;
     border-radius: 5px;
     z-index: 9;
@@ -249,8 +242,8 @@ footer ul li a {
 }
 
 .brand a {
-    color: rgb(222, 246, 250) !important;
-    font-weight: lighter;
+    color: rgb(238, 247, 247) !important;
+    font-weight: lighter !important;
     font-family: 'Yellowtail', cursive;
     font-size: 30px !important;
     padding: 4px !important;
@@ -270,7 +263,14 @@ ul.drop-menu li {
 
 }
 
-ul.drop-menu li:nth-child(6) {
+ul.drop-menu li:last-of-type {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+
+}
+
+ul.drop-menu li:last-child {
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 
