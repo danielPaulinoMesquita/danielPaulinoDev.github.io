@@ -41,14 +41,16 @@
     <div class="header">
         <div class="navbar1" id="nav2">
             <ul class="nav justify-content-center" id="menu-navegacao">
-                <li class="nav-item"><a class="d-none d-sm-block" href="#Sobremim">Sobre mim</a></li>
-                <li class="brand"><a href="#sliders">Daniel Paulino</a>
+                <li class="nav-item"><a class="d-none d-sm-block" href="#home">Home</a></li>
+                <li class="brand"><a href="#sliders">Daniel Paulino <i class="fas fa-chevron-down"></i></a>
                     <ul class="drop-menu menu-2">
-                        <li><a class="d-md-none d-lg-none" href="#Sobremim">Sobre mim </a></li>
-                        <li><a href="#Objetivo">Objetivos</a></li>
+                        <li><a class="d-md-none d-lg-none" href="#home">Home </a></li>
+                        <li><a href="#Sobremim">Sobre mim</a></li>
+                        <li><a href="#Objetivo">Objetivo</a></li>
                         <li><a href="#Tecnologias">Tecnologias </a></li>
-                        <li><a class="d-md-none d-lg-none" href="#Portifolio">Portifólio </a></li>
                         <li><a href="curriculo.html">Currículo </a></li>
+                        <li><a class="d-md-none d-lg-none" href="#Portifolio">Portifólio </a></li>
+                        
                     </ul>
                 </li>
                 <li class="nav-item"><a class="d-none d-sm-block" href="#Portifolio">Portifólio</a></li>
@@ -60,11 +62,13 @@
         var nav = document.getElementById('nav2');
         window.onscroll = function() {
             if (window.pageYOffset > 100) {
-                nav.style.background = "rgba(28, 25, 25, 0.59)";
-                nav.style.boxShadow = "0px 4px 2px black";
+               nav.style.background = "rgba(28, 25, 25, 0.59)"; 
+               nav.style.boxShadow = "0px 4px 2px black";
+               
+
 
             } else {
-                nav.style.background = "transparent";
+                nav.style.background = "rgba(1, 5, 27, 0.856)";
                 nav.style.boxShadow = "0px 4px 2px rgba(3, 3, 15, 0.52)"
             }
         }
@@ -73,23 +77,40 @@
 
     <!-- Mais-->
     
-
-        <section>
+    <div class="div-colorida2">
+        <section id="home">
             <div class="container">
-                    <div class="row text-justify">
-                        <div class="col-md-6">
-                                <p class="h1">Daniel Paulino Mesquita</p>
-                                <p class="h2">Desenvolvedor java</p>
-                                <p class="h3"></p>
-
+               <div class="row text-justify">
+                  <div class="col-md-4">                          
+                   
+                  </div>
+                  
+                  <div class="col-md-8">
+                        <div class="dan">
+                             <div class="jumbotron jumbotron-fluid">
+                                <div class="container">
+                                        <h1 class="display-4">Daniel Paulino Mesquita</h1>
+                                        <h2>Desenvolvedor Java Jr.</h2>
+                                         <p class="lead"></p>                     
+                                         <a  class="btn btn-outline-info" href="https://www.facebook.com/daniel.paulino.965">
+                                         <i class="fab fa-facebook-square fa-2x"></i> Facebook</a>
+       
+                                            <a  class="btn btn-outline-info" href="https://www.instagram.com/dandanpiz/?hl=pt-br">
+                                            <i class="fab fa-instagram fa-2x"></i> Instagram</a>
+                                            <a  class="btn btn-outline-info" href="https://github.com/danielPaulinoMesquita">
+                                            <i class="fab fa-github fa-2x"></i> GitHub</a>
+                                            <a  class="btn btn-outline-info" href="https://www.linkedin.com/in/danielpaulinomesquita">
+                                            <i class="fab fa-linkedin fa-2x"></i> Linkedin</a>
+                                </div>
+                                             
+                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <img src="img/danielpc.jpg" class="rounded float-right" alt="...">
-                        </div>
-                     </div>
+                 </div>
+                
+                               
             </div>
         </section>
-
+    </div>
 
     <div class="container-fluid">
         <!-- SOBRE MIM-->
@@ -309,11 +330,23 @@
                             <div class="card-body">
                                 <h5 class="card-title">Loja</h5>
                                 <p class="card-text">Sistema feito com Springboot e Angular</p>
-                                <a href="#" class="btn btn-primary">Acesse o Repositorio</a>
+                                <a href="https://github.com/danielPaulinoMesquita/trabalhosOrWorks" class="btn btn-primary">Acesse o Repositorio</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                        <div class="col-sm-12 col-md-4 col-xs-12">
+                                <div class="card  text-dark bg-light grayscale " style="width: 18rem;">
+                                    <img class="card-img-top" src="img/portifolio-angular.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">E-Commerce</h5>
+                                        <p class="card-text">Front-End IONIC</p>
+                                        <a href="https://github.com/danielPaulinoMesquita/trabalhosOrWorks" class="btn btn-primary">Acesse o Repositorio</a>
+                                    </div>
+                                </div>
+                       </div>
+                 </div>
             </div>
         </section>
 

@@ -18,6 +18,10 @@ i {
     font-size: 30px;
     color: #14f4f4;
 }
+.navbar1 i{
+    font-size: 20px;
+    color: #e5fafa;
+}
 
 
 h1 {
@@ -30,24 +34,35 @@ h1 small {
     font-size: 23px;
     font-style: italic;
 }
-
-
-
-
-.jumbotron {
+.dan .jumbotron{
+    margin-top: 150px;
+    margin-bottom: 10px;
     border-radius: 18px;
-    background-color: rgba(42, 131, 235, 0.35);
+    background-color: rgba(1, 5, 27, 0.856);
     justify-content: left;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 40px;
+    padding-bottom: 14px;    
 
 }
 
+.jumbotron {
+    border-radius: 18px;
+    background-color: rgba(3, 22, 65, 0.89);
+    justify-content: left;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    
+
+} 
+
 .div-colorida h1 {
-    color: blue;
+    color: rgba(14, 39, 107, 0.918);
     font-weight: bold;
+}
 
-
+.div-colorida2 h1 {
+    color: rgba(136, 198, 209, 0.877);
+    font-weight: bold;
 }
 
 .rounded {
@@ -82,19 +97,18 @@ h1 small {
 }
 
 .div-colorida2 {
-    background: url(../img/fundo-slider.jpg);
-    background-position: center;
+    background: url(../img/6.jpg);
+    background-position:100%;
     background-clip: content-box;
-    border-top-style: groove;
-    border-top-color: aqua;
-    color: white;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(59, 7, 70);
+    color: rgb(231, 227, 236);
 
   
 }
 
 .div-colorida {
-  /*  background: url(../img/fundo.jpg); */
-  background: white;
+    background: white;
     background-position: center;
     background-attachment: fixed;
     border-top-style: groove;
@@ -205,7 +219,7 @@ footer ul li a {
     z-index: 9;
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 49px;
     top: 0px;
     text-align: center !important;
     transition: .5s;
@@ -214,9 +228,9 @@ footer ul li a {
 .navbar1 ul li a {
     list-style-type: none;
     display: inline-block;
-    padding: 10px 50px;
+    padding: 10px 52px;
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     cursor: pointer;
     border-radius: 5px;
     z-index: 9;
@@ -226,7 +240,7 @@ footer ul li a {
 
 .navbar1 ul li a:hover {
     /* background: rgba(73, 92, 93, 0.99);*/
-    background: rgba(10, 64, 111, 0.92);
+    background: rgba(10, 57, 100, 0.92);
 
 }
 
@@ -238,7 +252,7 @@ footer ul li a {
     color: rgb(222, 246, 250) !important;
     font-weight: lighter;
     font-family: 'Yellowtail', cursive;
-    font-size: 32px !important;
+    font-size: 30px !important;
     padding: 4px !important;
 
 }
@@ -256,7 +270,7 @@ ul.drop-menu li {
 
 }
 
-ul.drop-menu li:nth-child(5) {
+ul.drop-menu li:nth-child(6) {
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 
@@ -463,6 +477,27 @@ li:hover > ul.drop-menu.menu-2 li:nth-child(5) {
 
     -webkit-animation-delay: 650ms;
     animation-delay: 650ms;
+
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+
+
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+}
+
+li:hover > ul.drop-menu.menu-2 li:nth-child(6) {
+
+
+    -webkit-animation-name: menu2;
+    animation-name: menu2;
+
+    -webkit-animation-duration: 300ms;
+    animation-duration: 300ms;
+
+    -webkit-animation-delay: 750ms;
+    animation-delay: 750ms;
 
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
