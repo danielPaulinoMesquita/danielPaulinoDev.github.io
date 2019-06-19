@@ -121,6 +121,23 @@ section {
 
 }
 
+.oracle {
+    min-width: 60vh;
+    margin-top: 12px;
+    border-top-width:medium!important;
+    border-top-style:solid!important;
+    color:white;
+    border-top-color:rgba(47, 71, 71, 0.897);
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+.oracle h4{
+    color:rgba(175, 34, 34, 0.973);
+    font-weight: bolder;
+
+}
+
 
 .d-block {
     height: 90vh;
