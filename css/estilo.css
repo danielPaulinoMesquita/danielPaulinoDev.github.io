@@ -35,6 +35,14 @@ h1 small {
     font-style: italic;
 }
 
+.inicio{
+    padding-top: 65px;
+    /*Distância da parte superior */
+    padding-bottom: 1%;
+    /*Distância da parte inferior */
+    min-height: 100vh;
+}
+
 .dan .jumbotron{
    
     margin-top: 25%;
