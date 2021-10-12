@@ -1,0 +1,53 @@
+body{
+    background: rgb(29,28,28);
+    background: linear-gradient(90deg, rgba(29,28,28,1) 1%, rgba(35,35,37,1) 10%, rgba(198,197,210,1) 68%, rgba(207,207,207,1) 100%);
+
+}
+.centralizar {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pagination {
+    padding-top: 2%;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #063c7200;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.nav-link:focus, .nav-link:hover {
+    font-size: 20px;
+    background: rgba(167, 161, 161, 0.377);
+    color: #000000 !important;
+}
+
+
+section {
+
+    /* Configurações para tag section */
+    padding-top: 65px;
+    /*Distância da parte superior */
+    padding-bottom: 1%;
+    /*Distância da parte inferior */
+    min-height: 100vh;
+    /*Altura mínima */
+}
+
+.box{
+/* From https://css.glass */
+padding-top: 2%;
+background: rgba(15, 15, 15, 0.44);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.7px);
+-webkit-backdrop-filter: blur(6.7px);
+border: 1px solid rgba(15, 15, 15, 0.59);
+}
+
+
