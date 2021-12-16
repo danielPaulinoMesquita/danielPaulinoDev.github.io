@@ -23,113 +23,190 @@
     <section>
       <div class="container">
         <div class="pagination">
-            <div class="col-lg-12 centralizar">
+            <div class="col-lg-12">
               <div class="box">
-                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/foto-sobremim.jpg"  
-                role="img" aria-label="Placeholder: 140x140"
-                preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#777"></rect>
-        
-                <div class="card-body">
-                  <h5 class="card-title">Daniel Paulino Mesquita</h5>
-                  <p class="card-text">Developer Pleno Java  </p>     
-                  <nav>
-                    <div class="nav nav-tabs centralizar justify-content-center" id="nav-tab" role="tablist">
-                      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-                      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Experiência</button>
-                      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Certificados</button>
-                      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-portifolio" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Portifólio</button>
-                    </div>
-                  </nav>
-                  <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">... teste 1
-
-                    </div>
+                <div class="centralizar">
+                  <img class="bd-placeholder-img rounded-circle" width="200" height="200" src="img/IMG_Dan.jpg"  
+                  role="img" aria-label="Placeholder: 140x140"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#777"></rect>
+          
+                  <div class="card-body">
+                    <h3 class="card-title name-perfil">Daniel Paulino Mesquita</h3>
+                    <h4 class="card-text">Developer Pleno Java </h4>     
                     
-                    <div class="tab-pane" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                      <br>
-                      <div class="processo-wrapper">
-                        <div id="progresso-bar-container">
-                          <ul>
-                            <li class="step passo01 active">
-                              <div class="step-inner">Trackn'me</div>
-                            </li>
-                            <li class="step passo02">
-                              <div class="step-inner">Freelance</div>
-                            </li>
-                            <li class="step passo03">
-                              <div class="step-inner">Basis S.A</div>
-                            </li>
-                            <li class="step passo04">
-                              <div class="step-inner">GS3 (Cooperforte)</div>
-                            </li>
-                            <li class="step passo05">
-                              <div class="step-inner">Estudando</div>
-                            </li>
-                          </ul>
-                          <div id="linha">
-                            <div id="linha-processo"></div>
-                          </div>
-                        </div>
-                        <div id="progresso-content-section">
-                          <div class="section-content inicio active">
-                            <h2>INICIO SECTION</h2>
-                            <p>
-                              Lorem ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
-                              tetste dfsaff ssdfsfs
-                            </p>
-                          </div>
-                  
-                          <div class="section-content dois">
-                            <h2>Dois SECTION</h2>
-                            <p>
-                                DOIS DIOUS  ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
-                              tetste dfsaff ssdfsfs
-                            </p>
-                          </div>
-                  
-                          <div class="section-content tres">
-                            <h2>TRES SECTION</h2>
-                            <p>
-                                DOIS DIOUS  ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
-                              tetste dfsaff ssdfsfs
-                            </p>
-                          </div>
-                          <div class="section-content quatro">
-                            <h2>QUATRO SECTION</h2>
-                            <p>
-                              QUATRO DIOUS  ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
-                              tetste dfsaff ssdfsfs
-                            </p>
-                          </div>
-                          <div class="section-content cinco">
-                            <h2>CINCO SECTION</h2>
-                            <p>
-                              QUATRO DIOUS  ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
-                              tetste dfsaff ssdfsfs
-                            </p>
-                          </div>
-                        </div>
-                      </div> 
-
-                    </div>
-
-                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">... teste 3
-
-                    </div>
-                    <div class="tab-pane fade" id="nav-portifolio" role="tabpanel" aria-labelledby="nav-portifolio-tab">... teste 4
-
-                    </div>
                   </div>
+                  <button type="button" class="btn btn-dark active" onclick="myFunction('cert')">Certificados </button>
+                  <button type="button" class="btn btn-secondary" onclick="myFunction('exp')">Experiência </button>
+                  <button type="button" class="btn btn-dark" onclick="myFunction('port')">Portifólio </button>
                 </div>
               </div>
+
+              
+              <div class="container box font_default">
+
+                <div id="cert">
+                  <h2 class="name-perfil">CERTIFICADOS</h2>
+
+                  <p>
+                    Estes são Sistemas Desenvolvidos por mim, que você pode acessar o código fonte e fazer uma melhor avaliação do meu trabalho:
+                  </p>
+                  <p>
+                    <div class="row row-cols-1 row-cols-md-5 g-4">
+                      <div class="col">
+                        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                          <img src="./img/portifolio-academia.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Academia</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                          <img src="./img/portifolio-angular.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Danger card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card text-dark bg-light mb-3 card-back" style="max-width: 18rem;">
+                          <img src="./img/ionicimg.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Light card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                          <img src="./img/portifolio-spring-boot .png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Success card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card text-dark bg-info mb-3" style="max-width: 18rem;">
+                          <img src="./img/portifolio-games2.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Info card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+
+                <div id="exp">
+                  <h2 class="name-perfil">EXPERIÊNCIA</h2>
+                  <div class="tab-pane" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <br>
+                    <div class="processo-wrapper">
+                      <div id="progresso-bar-container">
+                        <ul>
+                          <li class="step passo01 active">
+                            <div class="step-inner">Trackn'me</div>
+                          </li>
+                          <li class="step passo02">
+                            <div class="step-inner">Freelance</div>
+                          </li>
+                          <li class="step passo03">
+                            <div class="step-inner">Basis S.A</div>
+                          </li>
+                          <li class="step passo04">
+                            <div class="step-inner">GS3 (Cooperforte)</div>
+                          </li>
+                          <li class="step passo05">
+                            <div class="step-inner">Estudando</div>
+                          </li>
+                        </ul>
+                        <div id="linha">
+                          <div id="linha-processo"></div>
+                        </div>
+                      </div>
+                      <div id="progresso-content-section">
+                        <div class="section-content inicio active">
+                          <h2>INICIO SECTION</h2>
+                          <p>
+                            Lorem ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
+                            tetste dfsaff ssdfsfs
+                          </p>
+                        </div>
+                
+                        <div class="section-content dois">
+                          <h2>Dois SECTION</h2>
+                          <p>
+                              DOIS DIOUS  ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
+                            tetste dfsaff ssdfsfs
+                          </p>
+                        </div>
+                
+                        <div class="section-content tres">
+                          <h2>TRES SECTION</h2>
+                          <p>
+                              DOIS DIOUS  ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
+                            tetste dfsaff ssdfsfs
+                          </p>
+                        </div>
+                        <div class="section-content quatro">
+                          <h2>QUATRO SECTION</h2>
+                          <p>
+                            QUATRO DIOUS  ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
+                            tetste dfsaff ssdfsfs
+                          </p>
+                        </div>
+                        <div class="section-content cinco">
+                          <h2>CINCO SECTION</h2>
+                          <p>
+                            QUATRO DIOUS  ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
+                            tetste dfsaff ssdfsfs
+                          </p>
+                        </div>
+                      </div>
+                    </div> 
+
+                  </div>
+                </div>
+
+                <div id="port">
+                  <h2 class="name-perfil">PORTIFÓLIOS</h2>
+                  <p>
+                    Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est PORTIFOLIO commodo luctus.
+                  </p>
+                </div>
+                                    
+                <script>
+                  function myFunction(nameDiv) {
+                    var divs = ['cert', 'exp', 'port'];
+                    var escolhida = document.getElementById(nameDiv);
+
+                    divs.forEach(function (item, indice, array) {
+                      var divPercorrida = document.getElementById(item);
+
+                      if(nameDiv == item){
+                        divPercorrida.style.display = "block";
+
+                      }else {
+                        divPercorrida.style.display = "none";
+
+                      }
+                      console.log(item, indice);
+                    });
+
+                  }
+                  </script>
+
+              </div>
+            
             </div>
         </div>
       </div>
-    </section>
-    <section>
-      
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
