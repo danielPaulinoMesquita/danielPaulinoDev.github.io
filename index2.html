@@ -34,12 +34,12 @@
           
                   <div class="card-body">
                     <h3 class="card-title name-perfil">Daniel Paulino Mesquita</h3>
-                    <h4 class="card-text">Developer Pleno Java </h4>     
+                    <h4 class="card-text">Developer  </h4>     
                     
                   </div>
-                  <button type="button" class="btn btn-dark active" onclick="myFunction('cert')">Certificados </button>
-                  <button type="button" class="btn btn-secondary" onclick="myFunction('exp')">Experiência </button>
-                  <button type="button" class="btn btn-dark" onclick="myFunction('port')">Portifólio </button>
+                  <button type="button" class="btn btn-dark button-neon" onclick="myFunction('cert')">About </button>
+                  <button type="button" class="btn btn-secondary button-neon" onclick="myFunction('exp')">Experience </button>
+                  <button type="button" class="btn btn-dark button-neon" onclick="myFunction('port')">Portfolio</button>
                 </div>
               </div>
 
@@ -47,64 +47,35 @@
               <div class="container box font_default">
 
                 <div id="cert">
-                  <h2 class="name-perfil">CERTIFICADOS</h2>
-
-                  <p>
-                    Estes são Sistemas Desenvolvidos por mim, que você pode acessar o código fonte e fazer uma melhor avaliação do meu trabalho:
-                  </p>
-                  <p>
-                    <div class="row row-cols-1 row-cols-md-5 g-4">
-                      <div class="col">
-                        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                          <img src="./img/portifolio-academia.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Academia</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h2 class="name-perfil">ABOUT ME</h2>
+                  <div class="row">
+                    <div class="col">
+                      Java developer certified with OCA, which always aims to learn and know technologies that are on the rise, frameworks and other tools that aim to improve java development.
+                      Graduated in Systems Analysis and Development from the Catholic University of Brasília, and also a computer technician from the Technical School of Brasília.
+                    </div>
+                    <div class="col">
+                      <div class="card mb-3 border-danger card_glass" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-8">
+                            <div class="card-body text-danger">
+                              <h4 class="card-title">Oracle Certified Associate, Java SE 8 Programmer </h4>
+                              <p class="card-text fs-6 text">An Oracle Certified Associate, Java SE 8 Programmer has demonstrated knowledge of object-oriented concepts, 
+                                the Java programming language and general knowledge of Java platforms and technologies.</p>
+                              <a href="https://www.youracclaim.com/badges/2537bc06-1814-4555-b940-38c50bfc25ee/public_url" class="btn btn-danger">Verificar</a>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
-                          <img src="./img/portifolio-angular.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Danger card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="card text-dark bg-light mb-3 card-back" style="max-width: 18rem;">
-                          <img src="./img/ionicimg.png" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Light card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
-                          <img src="./img/portifolio-spring-boot .png" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Success card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="card text-dark bg-info mb-3" style="max-width: 18rem;">
-                          <img src="./img/portifolio-games2.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Info card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="col-md-4">
+                            <img src="./img/oracle-certified-associate-java-se-8-programmer.png" style="margin-top: 3%; margin-left: 2%;" class="img-fluid rounded-start" alt="logo-oca">
                           </div>
                         </div>
                       </div>
                     </div>
-                  </p>
+                  </div>
+            
                 </div>
 
-                <div id="exp">
-                  <h2 class="name-perfil">EXPERIÊNCIA</h2>
+                <div id="exp" style ="display: none;">
+                  <h2 class="name-perfil" style ="margin-bottom: 1px;">EXPERIENCE</h2>
                   <div class="tab-pane" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <br>
                     <div class="processo-wrapper">
@@ -123,7 +94,7 @@
                             <div class="step-inner">GS3 (Cooperforte)</div>
                           </li>
                           <li class="step passo05">
-                            <div class="step-inner">Estudando</div>
+                            <div class="step-inner">eNe Soluções</div>
                           </li>
                         </ul>
                         <div id="linha">
@@ -132,40 +103,46 @@
                       </div>
                       <div id="progresso-content-section">
                         <div class="section-content inicio active">
-                          <h2>INICIO SECTION</h2>
-                          <p>
-                            Lorem ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
-                            tetste dfsaff ssdfsfs
+                          <h2>Developer Back-End</h2>
+                          <p>• Manutenção e melhoria no sistema de rastreadores. 
+                            • Desenvolvimento de funcionalidades no código de conversão dos rastreadores. 
+                            • Desenvolvimento de testes unitários: JUNIT e Mockito. • Levantamento e verificação de requisitos.
                           </p>
                         </div>
                 
                         <div class="section-content dois">
-                          <h2>Dois SECTION</h2>
+                          <h2>Full-Stack</h2>
                           <p>
-                              DOIS DIOUS  ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
-                            tetste dfsaff ssdfsfs
+                            • Desenvolvimento de funcionalidades.
+                            • Manutenção no sistema de cadastro e visualização, back-end(Java 8) e front-end(Angular 5).
+                            • Desenvolver layout de páginas(BootStrap).
+                            • Manutenção e atualização no Banco de Dados(MySql).
                           </p>
                         </div>
                 
                         <div class="section-content tres">
-                          <h2>TRES SECTION</h2>
+                          <h2>Developer Full-Stack</h2>
                           <p>
-                              DOIS DIOUS  ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
-                            tetste dfsaff ssdfsfs
+                            • Desenvolvimento de funcionalidades back-end: Java 8 e frameworks Spring (Spring Boot, Spring Cloud Netflix Spring Data... ).
+                            • Desenvolvimento de funcionalidades front-end: Angular 5, JSF, Angular JS.
+                            • Manutenção e melhorias em relatórios com o uso do JasperReports. 
+                            • Manutenção nos esquemas e mapeamento para indexação no Elasticsearch
+                            • Manutenção em sistemas com Web Services SOAP e REST.
+                            • Manutenção em sistemas legados (Java 6)
+                            • Manutenção e atualização no Banco de Dados MySql, Oracle(SQL Developer), PostgreSQL.
                           </p>
                         </div>
                         <div class="section-content quatro">
-                          <h2>QUATRO SECTION</h2>
+                          <h2>Developer Full-Stack</h2>
                           <p>
-                            QUATRO DIOUS  ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
-                            tetste dfsaff ssdfsfs
+                            Developer providing services to cooperforte, working in the development of features and maintenance. 
+                            Technologies used Java 11, Spring, React, Kafka, Quartz, SqlServer.
                           </p>
                         </div>
                         <div class="section-content cinco">
-                          <h2>CINCO SECTION</h2>
+                          <h2>Analista de Sistemas</h2>
                           <p>
-                            QUATRO DIOUS  ipsum dolar sit amet  id="line" id="line" id="line" id="line" id="line" id="line"
-                            tetste dfsaff ssdfsfs
+                            LOADING...
                           </p>
                         </div>
                       </div>
@@ -174,15 +151,65 @@
                   </div>
                 </div>
 
-                <div id="port">
-                  <h2 class="name-perfil">PORTIFÓLIOS</h2>
+                <div id="port" style ="display: none;">
+                  <h2 class="name-perfil">PORTFOLIO</h2>
                   <p>
-                    Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est PORTIFOLIO commodo luctus.
+                    These are systems developed by me, that you can access and better evaluate my work.
+                  </p>
+                  <p>
+                    <div class="row row-cols-1 row-cols-md-5 g-4">
+                      <div class="col">
+                        <div class="card text-white bg-dark mb-2 card_port" style="max-width: 15rem;">
+                          <img src="./img/portifolio-academia.jpg" width="100" height="100" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Academia</h5>
+                            <p class="card-text fs-6">Sistema de Gerenciamento para academias</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card text-white bg-secondary mb-2 card_port" style="max-width: 15rem;">
+                          <img src="./img/portifolio-angular.jpg" width="100" height="100" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Loja</h5>
+                            <p class="card-text fs-6">Sistema feito com Springboot e Angular</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card text-white bg-dark mb-2 card-back card_port" style="max-width: 15rem;">
+                          <img src="./img/ionicimg.png" width="100" height="100" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">E-Commerce</h5>
+                            <p class="card-text fs-6">E-Commerce Front-End feito com IONIC</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card text-white bg-secondary mb-3 card_port" style="max-width: 15rem;">
+                          <img src="./img/portifolio-spring-boot .png" width="100" height="100" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">E-Commerce</h5>
+                            <p class="card-text fs-6">Back-End feito com Framework springboot</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card text-white bg-dark mb-3 card_port" style="max-width: 15rem;">
+                          <img src="./img/portifolio-games2.jpg" width="100" height="100" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Loja de Games </h5>
+                            <p class="card-text fs-6">Sistema Gerenciamento de uma loja de Games</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </p>
                 </div>
                                     
                 <script>
                   function myFunction(nameDiv) {
+                    debugger
                     var divs = ['cert', 'exp', 'port'];
                     var escolhida = document.getElementById(nameDiv);
 
@@ -208,6 +235,7 @@
         </div>
       </div>
     </section>
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script>

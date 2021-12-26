@@ -28,7 +28,7 @@ margin-top: 59px;
     width: 30px;
     height: 30px;
     border-radius: 58%;
-    border: solid 2px #aaa;
+    border: solid 2px #255a62;
     transition: all ease 0.3s;
 }
 
@@ -62,7 +62,7 @@ margin-top: 59px;
 
 #progresso-bar-container li.active,  
 #progresso-bar-container li:hover{
-    color:#17171c;
+    color:#939fa7;
 }
 
 #progresso-bar-container li:after{
