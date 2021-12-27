@@ -70,6 +70,9 @@ section {
 }
 .card_port:hover {
     transform: translateY(-10px);
+    border-color: rgb(4, 55, 163);
+    box-shadow: 10px 10px rgba(0, 4, 8, 0.863);
+
 }
 
 .button-neon:active {
@@ -80,7 +83,7 @@ section {
     background-color: #06080e;
     box-shadow: 0px 15px 20px rgba(26, 72, 133, 0.568);
     color: rgb(220, 222, 224);
-    transform: translateY(-7px);
+    transform: translateY(-2px);
 }
    
 
