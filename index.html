@@ -24,12 +24,6 @@
       <div class="container">
         <div class="pagination">
             <div class="col-lg-12">
-              <a class="btn btn-outline-info btn-sm" href="./index1.html" role="button">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-                </svg>
-                Previous Version 
-              </a>
               <div class="box">
                 <div class="centralizar">
                   <img class="bd-placeholder-img rounded-circle" width="200" height="200" src="img/IMG_DANIEL-PERFIL.jpeg"  
@@ -43,10 +37,19 @@
                     <h3 class="card-title name-perfil">Daniel Paulino Mesquita</h3>
                     <h4 class="card-text">Java Developer</h4>     
                   </div>
-                  
-                  <button type="button" class="btn btn-dark button-neon" onclick="myFunction('cert')">About </button>
-                  <button type="button" class="btn btn-secondary button-neon" onclick="myFunction('exp')">Experience </button>
-                  <button type="button" class="btn btn-dark button-neon" onclick="myFunction('port')">Portfolio</button>
+                  <p>
+                    <a class="btn btn-outline-info btn-sm" href="./index1.html" role="button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                      </svg>
+                      Previous Version 
+                    </a>
+                  </p>
+                
+                  <button type="button" class="btn button-neon btn-outline-light btn-md" onclick="myFunction('cert')">About </button>
+                  <button type="button" class="btn button-neon btn-outline-light btn-md" onclick="myFunction('exp')">Experience </button>
+                  <button type="button" class="btn button-neon btn-outline-light btn-md" onclick="myFunction('port')">Portfolio</button>
+
                 </div>
               </div>
 
@@ -223,7 +226,6 @@
                                     
                 <script>
                   function myFunction(nameDiv) {
-                    debugger
                     var divs = ['cert', 'exp', 'port'];
                     var escolhida = document.getElementById(nameDiv);
 
